@@ -251,7 +251,7 @@
 
                                 <script>
                                     document.addEventListener("DOMContentLoaded", () => {
-                                        fetch(`http://localhost:8000/api/blogs`)
+                                        fetch(`/api/blogs`)
 
                                             .then(res => res.json())
                                             .then(data => {
@@ -277,7 +277,7 @@
                         <td>${new Date(blog.date).toISOString().split("T")[0]}</td>
 
                         <td>
-                            ${blog.image ? `<img src="http://localhost:8000/${blog.image}" width="50" class="rounded">` : "No Image"}
+                            ${blog.image ? `<img src="/${blog.image}" width="50" class="rounded">` : "No Image"}
                         </td>
                         <td>
                             <a href="editBlog.html?id=${blog._id}" 
@@ -325,7 +325,7 @@
                                             cancelButtonText: "Cancel"
                                         }).then((result) => {
                                             if (result.isConfirmed) {
-                                                fetch(`http://localhost:8000/api/blogs/${id}`, {
+                                                fetch(`/api/blogs/${id}`, {
                                                     method: "DELETE",
                                                     headers: {
                                                         Authorization: `Bearer ${token}`

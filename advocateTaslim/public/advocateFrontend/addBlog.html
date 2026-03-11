@@ -273,7 +273,7 @@ document.getElementById("addBlogForm").addEventListener("submit", async function
 
     const token = localStorage.getItem("adminToken"); // same key you use in login
 
-    const res = await fetch("http://localhost:8000/api/blogs", {
+    const res = await fetch("/api/blogs", {
         method: "POST",
         headers: {
             Authorization: `Bearer ${token}`
