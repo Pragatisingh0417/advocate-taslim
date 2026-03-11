@@ -3,7 +3,7 @@
 ////////////////////////////   fetch blogss//////////////////////////////
 
 
-fetch("http://localhost:8000/api/blogs")
+fetch("/api/blogs")
   .then(res => res.json())
   .then(data => {
 
@@ -24,7 +24,7 @@ fetch("http://localhost:8000/api/blogs")
         <div class="blog-card">
 
           ${blog.image 
-            ? `<img src="http://localhost:8000/${blog.image}" class="img-fluid rounded">`
+            ? `<img src="/${blog.image}" class="img-fluid rounded">`
             : ""
           }
 
@@ -57,7 +57,7 @@ if (!slug) {
   throw new Error("Slug missing");
 }
 
-fetch(`http://localhost:8000/api/blogs/slug/${slug}`, {
+fetch(`/api/blogs/slug/${slug}`, {
     method: "GET",
   headers: {
     "Content-Type": "application/json",
@@ -98,7 +98,7 @@ fetch(`http://localhost:8000/api/blogs/slug/${slug}`, {
         <!-- Featured Image -->
         <div class="featured-image">
                ${blog.image
-        ? `<img src="http://localhost:8000/${blog.image}" class="img-fluid mb-3 alt="Court Marriage Advocate in Ghaziabad"">`
+        ? `<img src="/${blog.image}" class="img-fluid mb-3 alt="Court Marriage Advocate in Ghaziabad"">`
         : ""
       }
         </div>
