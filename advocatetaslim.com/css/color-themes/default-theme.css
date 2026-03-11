@@ -1,0 +1,216 @@
+/* Theme Color */
+
+a,
+.theme_color,
+.btn-style-one:hover,
+.social-icon-one li a:hover,
+.social-icon-two li a:hover,
+.list-style-one li a:hover,
+.list-style-two li .icon,
+.main-slider h3,
+.btn-style-four,
+.page-breadcrumb li,
+.blog-cat li a .icon,
+.page-breadcrumb li a:hover,
+.attorneys-info li:before,
+.attorneys-single-section .info-column .designation,
+.attorneys-single-section .info-column ul li,
+.attorneys-single-section .info-column ul li a:hover,
+.list-style-four li:before,
+.header-top-two .top-left .links li a .icon,
+.header-top-two .top-left .links li a:hover,
+.services-block .inner-box .read-more,
+.services-block .inner-box h3 a:hover,
+.sticky-header .main-menu .navigation > li:hover > a,
+.sticky-header .main-menu .navigation > li.current > a,
+.main-header .header-top .top-right .social-nav li a,
+.services-block .inner-box .icon-box .icon,
+.about-section .content-column .price,
+.team-block .inner-box .lower-box h3 a:hover,
+.team-block .inner-box .lower-box .designation,
+.team-section .owl-prev,
+.team-section .owl-next,
+.news-block .inner-box .lower-content h3 a:hover,
+.services-section-two .owl-prev,
+.services-section-two .owl-next,
+.history-section .content-column .inner-column .learn-more,
+.services-block-two .inner-box .image .overlay-box .read-more,
+.services-block-two .inner-box .lower-box h3 a:hover,
+.services-block-two .inner-box .lower-box .arrow,
+.accordion-box .block .acc-btn .icon-outer .icon,
+.info-block .block-inner .icon-box,
+.list-style-three li:before,
+.case-list li .icon,
+.new-posts a:hover,
+.sidebar .search-box .form-group button,
+.sidebar .popular-posts .post a:hover,
+.cat-list li a:hover,
+.sidebar .list li a:hover,
+.cat-list li a:before,
+.social-icon-three li a:hover,
+.social-icon-four li a:hover,
+.post-share-options .posts li a .fa,
+.post-share-options .posts li a:hover,
+.blog-single .inner-box .title-box .post-info,
+.news-widget-block .widget-inner .post-date,
+.accordion-box.style-three .block .acc-btn .icon-box,
+.testimonial-block-two .inner-box .author-info,
+.testimonial-block-two .inner-box .quote-icon,
+.testimonial-block .inner-block .author-info .designation,
+.testimonial-section .content-column .inner-column .bold-text,
+.testimonial-section .content-column .inner-column .bold-text,
+.services-block-two .inner-box .lower-box .lower-inner .icon-box,
+.gallery-page-section .filters .filter-tabs .filter.active,
+.gallery-page-section .filters .filter-tabs .filter:hover,
+.gallery-item .inner-box .lower-box h3 a:hover,
+.news-block-two .inner-box .content-column h3 a:hover,
+.news-block-two .inner-box .content-column .post-info,
+.gallery-item .inner-box .image .overlay-box .overlay-inner .link,
+.sticky-header .main-menu .navigation > li:hover > a,
+.sticky-header .main-menu .navigation > li.current > a,
+.news-block-two .inner-box h3 a:hover,
+.sidebar .list li:before,
+.sidebar .latest-tweets .time,
+.sidebar .recent-posts .post-info,
+.sidebar .latest-tweets .owl-prev:hover,
+.sidebar .latest-tweets .owl-next:hover,
+.news-block-two .inner-box:hover .read-more,
+.sidebar .search-box .form-group input:focus + button,
+.sidebar .search-box .form-group button:hover,
+.social-icon-five li a:hover,
+.blog-single .comments-area .comment-info .time,
+.sidebar .recent-posts .post a,
+.sidebar .recent-posts .post a:hover,
+.header-style-two .sticky-header .main-menu .navigation > li.current > a,
+.header-style-two .sticky-header .main-menu .navigation > li:hover > a,
+.news-block-three .inner-box .lower-box h3 a:hover,
+.news-block-three .inner-box .lower-box .read-more,
+.news-block-four .inner-box .lower-content .lower-box h3 a:hover {
+    color: #223a8c;
+}
+
+/*Background Color*/
+.btn-style-one,
+.btn-style-two:hover,
+.scroll-to-top:hover,
+.btn-style-four:hover,
+.btn-style-six:hover,
+.sidebar .popular-tags a:hover,
+.video-box .overlay-box span,
+.history-section .video-column .inner-column:before,
+.counter-section .inner-container,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.team-section .owl-prev:hover,
+.team-section .owl-next:hover,
+.main-header .header-lower .outer-box .advisor-box .advisor-btn,
+.main-header .language .dropdown-menu > li > a:hover,
+.subscribe-form .form-group .subscribe-btn,
+.main-footer .footer-bottom .scroll-top,
+.blog-cat li.active a,
+.blog-cat li a:hover,
+.faq-page-section .faq-tabs .tab-btns .tab-btn:hover,
+.faq-page-section .faq-tabs .tab-btns .tab-btn.active-btn,
+.brochures-widget .widget-content .download:hover,
+.services-block .inner-box .read-more:before,
+
+.default-form .form-group .submit-btn:hover,
+.news-block-two .inner-box:hover .date,
+.blog-single .post-bottom .share-options li a:hover,
+.styled-pagination li a:hover,
+.styled-pagination li a.active,
+.sidebar-page-container .comments-area .comment .comment-reply,
+.services-section-two .owl-prev:hover,
+.services-section-two .owl-next:hover,
+.news-block-four .inner-box .lower-content .upper-box .posted-date {
+    background-color: #fff;
+}
+
+/*Border Color*/
+
+.btn-style-one,
+.btn-style-two:hover,
+.btn-style-four,
+.btn-style-four:hover,
+.btn-style-six,
+.page-breadcrumb,
+.sidebar .popular-tags a:hover,
+.main-header .language .dropdown-menu,
+.main-menu .navigation > li > ul,
+.info-block .block-inner .icon-box,
+.main-header .search-box-outer .dropdown-menu,
+.main-menu .navigation > li > ul > li > ul,
+.main-header .search-panel input:focus,
+.main-header .search-panel select:focus,
+.feature-block .inner-block .icon-box,
+.team-section .owl-prev,
+.team-section .owl-next,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.services-block-two .inner-box .lower-box .arrow,
+.services-section-two .owl-prev:hover,
+.services-section-two .owl-next:hover,
+.services-section-two .owl-prev,
+.services-section-two .owl-next,
+.team-section .owl-prev:hover,
+.team-section .owl-next:hover,
+.accordion-box .block .acc-btn .icon-outer .icon,
+.styled-pagination li a:hover,
+.styled-pagination li a.active,
+.comment-form .form-group input[type="text"]:focus,
+.comment-form .form-group input[type="password"]:focus,
+.comment-form .form-group input[type="tel"]:focus,
+.comment-form .form-group input[type="email"]:focus,
+.comment-form .form-group select:focus,
+.styled-heading h2:after,
+.styled-heading-two h2:after,
+.blog-single .post-bottom .share-options li a:hover,
+.sidebar .search-box .form-group input:focus,
+.comment-form .form-group textarea:focus {
+    border-color: #fff;
+}
+
+/*RGBA Color Light*/
+
+.video-box .overlay-box span:after {
+    border-color: rgba(204, 136, 9, 0.60);
+}
+
+/*RGBA Color Dark*/
+
+.call-to-action-section:before,
+.clients-section:before,
+.gallery-item .inner-box .image .overlay-box {
+    background-color: rgba(204, 136, 9, 0.90);
+}
+
+.news-block-two .image-box .default-overlay-outer {
+    background-color: rgba(204, 136, 9, 0.80);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .main-menu .navbar-header .navbar-toggle {
+        border-color: #223a8c;
+    }
+
+    .main-menu .navbar-header .navbar-toggle,
+    .main-menu .navbar-collapse > .navigation,
+    .main-menu .navbar-collapse > .navigation > li > ul,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+    .main-menu .navbar-collapse > .navigation > li > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+    .main-menu .navbar-collapse > .navigation > li > a:hover,
+    .main-menu .navbar-collapse > .navigation > li > a:active,
+    .main-menu .navbar-collapse > .navigation > li > a:focus,
+    .main-menu .navbar-collapse > .navigation > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+    .main-menu .navbar-collapse > .navigation > li.current > a,
+    .main-menu .navbar-collapse > .navigation > li.current-menu-item > a,
+    .header-style-two.inner-header .main-menu .navigation > li > a {
+        background-color: #223a8c;
+    }
+
+}
