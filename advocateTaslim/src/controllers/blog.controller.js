@@ -15,7 +15,7 @@ const createBlog = async (req, res) => {
       long_description,
       date,
       slug: slugify(req.body.heading, { lower: true }),
-image: req.file ? `blogImages/${req.file.filename}` : null
+image: req.file ? req.file.filename : null
     });
 
     const savedBlog = await newBlog.save();
@@ -42,7 +42,8 @@ const updateBlog = async (req, res) => {
       fs.unlink(oldImagePath, err => {
         if (err) console.log("Old image delete failed:", err.message);
       });
-req.body.image = `blogImages/${req.file.filename}`;    }
+req.body.image = req.file.filename;
+   }
 
     const updatedBlog = await Blog.findByIdAndUpdate(
       req.params.id,

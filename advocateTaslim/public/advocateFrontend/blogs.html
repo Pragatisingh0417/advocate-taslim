@@ -277,8 +277,7 @@
                         <td>${new Date(blog.date).toISOString().split("T")[0]}</td>
 
                         <td>
-                            ${blog.image ? `<img src="${blog.image}" width="50" class="rounded">` : "No Image"}
-                        </td>
+${blog.image ? `<img src="/blogImages/${blog.image.split("/").pop()}" width="50" class="rounded">` : "No Image"}                        </td>
                         <td>
                             <a href="editBlog.html?id=${blog._id}" 
                                 class="btn btn-sm btn-primary"

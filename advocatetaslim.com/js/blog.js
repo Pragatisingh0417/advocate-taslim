@@ -24,9 +24,9 @@ fetch("/api/blogs")
         <div class="blog-card">
 
           ${blog.image 
-            ? `<img src="/blogImages/${blog.image}" class="img-fluid rounded">`
-            : ""
-          }
+  ? `<img src="/blogImages/${blog.image.split("/").pop()}" class="img-fluid rounded">`
+  : ""
+}
 
           <div class="blog-content">
             <h2 class="headeng-card">${blog.heading}</h2>
@@ -98,9 +98,9 @@ fetch(`/api/blogs/slug/${slug}`, {
         <!-- Featured Image -->
         <div class="featured-image">
                ${blog.image
-        ? `<img src="/blogImages/${blog.image}" class="img-fluid mb-3 alt="Court Marriage Advocate in Ghaziabad"">`
-        : ""
-      }
+  ? `<img src="/blogImages/${blog.image.split("/").pop()}" class="img-fluid mb-3" alt="Court Marriage Advocate in Ghaziabad">`
+  : ""
+}
         </div>
 
         <!-- Blog Content -->
