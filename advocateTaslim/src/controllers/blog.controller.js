@@ -103,10 +103,15 @@ const getSingleBlog = async (req, res) => {
 };
 
 const getSingleSlug = async (req, res) => {
-   const blog = await Blog.findOne({slug : req.params.slug});
-  //  const blog = await Blog.findById( req.params.id);
-    res.json(blog);
+  const blog = await Blog.findOne({ slug: req.params.slug });
+
+  if (!blog) {
+    return res.status(404).json({ message: "Blog not found" });
+  }
+
+  res.json(blog);
 };
+
 
 
 
