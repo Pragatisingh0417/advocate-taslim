@@ -287,7 +287,7 @@ document.getElementById("addBlogForm").addEventListener("submit", async function
         Swal.fire("Success", "Blog added successfully", "success");
         this.reset();
         CKEDITOR.instances.editor.setData("");
-        window.location.href = "blogs.html";
+        window.location.href = "blog.html";
 
     } else {
         Swal.fire("Error", data.message || "Something went wrong", "error");
